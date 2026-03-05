@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wallan Constructions Pty Ltd</title>
 
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#1e1e1e;
+color:white;
+padding:20px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:url('construction.jpg') center/cover no-repeat;
+height:450px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+background:rgba(0,0,0,0.6);
+padding:20px;
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:5px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.projects img{
+width:100%;
+border-radius:5px;
+}
+
+.contact{
+background:#1e1e1e;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+footer{
+background:black;
+color:#aaa;
+text-align:center;
+padding:15px;
+}
+
+button{
+background:#d89b2b;
+border:none;
+padding:12px 25px;
+color:white;
+font-weight:bold;
+cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2>Wallan Constructions</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Wallan Constructions Pty Ltd<br>Builders & Building Contractors</h1>
+</section>
+
+<section id="about" class="section">
+<h2>About Us</h2>
+<p>
+Wallan Constructions Pty Ltd is a trusted Australian building contractor delivering
+high-quality residential and commercial construction services. Our team focuses
+on craftsmanship, reliability, and professional project management from start to finish.
+</p>
+</section>
+
+<section id="services" class="section">
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Residential Construction</h3>
+<p>Custom homes, renovations and extensions built with quality and precision.</p>
+</div>
+
+<div class="card">
+<h3>Commercial Building</h3>
+<p>Professional commercial construction projects delivered on time and budget.</p>
+</div>
+
+<div class="card">
+<h3>Renovations</h3>
+<p>Modern upgrades, home improvements and structural renovations.</p>
+</div>
+
+<div class="card">
+<h3>Project Management</h3>
+<p>Complete building project planning, coordination and supervision.</p>
+</div>
+
+</div>
+</section>
+
+<section id="projects" class="section">
+<h2>Recent Projects</h2>
+
+<div class="projects">
+
+<img src="project1.jpg">
+<img src="project2.jpg">
+<img src="project3.jpg">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+
+<p>Email: info@wallanconstructions.com</p>
+<p>Phone: 0400 000 000</p>
+
+<button>Request a Quote</button>
+
+</section>
+
+<footer>
+<p>© 2026 Wallan Constructions Pty Ltd. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
